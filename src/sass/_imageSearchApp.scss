@@ -1,0 +1,61 @@
+/* Стиль для поисковой панели */
+.search-toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  background-color: #006b86;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+  margin-right: 20px;
+  background-color: greenyellow;
+}
+
+.search-form-button {
+  float: left;
+  width: 70px;
+  height: 30px;
+  color: #000;
+  cursor: pointer;
+  background: #c3c2c2;
+  border: none;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+/* Стиль для контейнера галереи */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Стиль для кнопки загрузки */
+.load-more {
+  background-color: #008cba;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.load-more:hover {
+  background-color: #006b86;
+}
